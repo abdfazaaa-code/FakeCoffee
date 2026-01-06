@@ -1,0 +1,12 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+header img {
+  border-radius: 50%;
+}
+
+.nav-link.active {
+  color: #ffc107 !important;
+  font-weight: 600;
+}
