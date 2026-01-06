@@ -31,9 +31,12 @@
 </nav>
 
 <header class="bg-light text-center p-5">
+  <h4 id="greeting" class="mb-3"></h4>
+  
   <img src="logo.png" class="mb-3" alt="Logo">
+  
   <p class="lead">your emergency call, when you need caffeine or else</p>
-  <h4 id="greeting"></h4>
+</header>
 </header>
 
 <section class="container my-5">
@@ -48,7 +51,6 @@
 <footer class="bg-dark text-white text-center p-3">
   © 2026 FakeCoffee
 </footer>
-
 <script>
   const currentPage = location.pathname.split("/").pop() || "index.html";
   document.querySelectorAll(".nav-link").forEach(link => {
